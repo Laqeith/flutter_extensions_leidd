@@ -21,7 +21,8 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 ## Getting started
 
 ```code
-flutter_extensions_leidd:
+dependencies:
+  flutter_extensions_leidd:
     git:
       url: https://github.com/Laqeith/flutter_extensions_leidd
       ref: master
