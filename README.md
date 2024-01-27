@@ -11,12 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+# Flutter extensions
 
 ## Getting started
 
@@ -36,8 +31,14 @@ If do not see latest extensions:
 flutter pub upgrade
 ```
 
-## Additional information
+Theme extension usage:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+final theme = context.theme;
+```
+
+Iterable extension usage:
+
+```dart
+[1, 2, 3].firstWhereOrNull((value) => value == 4)
+```
