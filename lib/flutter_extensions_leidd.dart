@@ -1,7 +1,4 @@
 library flutter_extensions_leidd;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'iterable_extension.dart';
+export 'theme_extension.dart';
