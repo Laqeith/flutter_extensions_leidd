@@ -11,5 +11,9 @@ void main() {
     test('returns the first matching element', () {
       expect([1, 2, 3].firstWhereOrNull((value) => value == 3), 3);
     });
+
+    test('returns sum of numeric property in list', () {
+      expect([1, 2, 3].sum((number) => number), 6);
+    });
   });
 }
